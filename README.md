@@ -17,7 +17,7 @@ In Thunderbird:
 
 7.  Start Thunderbird.
 
-8.  If the fonts are still too small for you, then look for this line:
+8.  If the fonts are still too small for you, then look for this line in the userChrome.css:
 
       { font-size: 14px !important; } and change the 14px to say 16px etc
 
