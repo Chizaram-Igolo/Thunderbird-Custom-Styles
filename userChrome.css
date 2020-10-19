@@ -1,0 +1,267 @@
+/*
+ 
+* Do not remove the @namespace line -- it's required for correct functioning
+ */
+
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); 
+
+/*
+*Make all the default font sizes eg:14 px:
+*/
+
+   * { font-size: 14px !important;
+    } 
+
+#threadTree > treechildren::-moz-tree-row 
+{
+height: 40px !important; 
+}
+
+toolbox,
+.tabmail-tabs
+{
+margin-top: 4px!important
+margin-bottom: 4px!important
+}
+
+#status-bar {
+  visibility: collapse !important;
+}
+
+#threadTree {
+    font-family: Verdana, Arial, Calibri !important;
+    font-size: 10px !important;
+    cursor: pointer;
+}
+
+#msgHeaderView {
+    font-family: Verdana, Arial, Calibri !important;
+    font-size: 10px !important;
+    height: 100px !important;
+    overflow: auto !important;
+}
+
+#folderTree {
+    font-family: Verdana, Arial, Calibri !important;
+    font-size: 10px !important; 
+    cursor: pointer;
+}
+
+.hdrReplyToSenderButton,
+.hdrDummyReplyButton,
+.hdrReplyButton,
+.hdrReplyAllButton,
+.hdrReplyListButton,
+.hdrFollowupButton,
+.hdrForwardButton,
+.hdrArchiveButton,
+.hdrJunkButton,
+.hdrTrashButton,
+.hdrTagButton,
+#button-getmsg,
+#button-newmsg ,
+#button-address,
+#button-reply,
+#button-replyall,
+#button-replylist,
+#button-forward,
+.delete-button,
+.junk-button,
+#button-print,
+#button-stop,
+#button-file,
+#button-nextUnread ,
+#button-previousUnread,
+#button-mark,
+#button-tag,
+#button-goback,
+#button-goforward,
+#button-compact,
+#button-archive,
+#button-chat,
+#button-nextMsg,
+#button-previousMsg,
+.button-appmenu,
+#qfb-show-filter-bar,
+#palette-box #qfb-show-filter-bar{
+    cursor: pointer;
+}
+
+#button-send,
+#button-contacts,
+#spellingButton,
+#button-attach,
+#button-security,
+#button-save,
+#quoteButton,
+#cut-button,
+#copy-button,
+#paste-button/*,
+#attachmentNotificationBox > notification .messageImage*/ {
+    cursor: pointer;
+}
+
+/* main window */
+.hdrReplyToSenderButton,
+.hdrDummyReplyButton,
+.hdrReplyButton {
+    cursor: pointer;
+}
+.hdrReplyAllButton {
+    cursor: pointer;
+}
+.hdrReplyListButton,
+.hdrFollowupButton {
+    cursor: pointer;
+}
+.hdrForwardButton {
+    cursor: pointer;
+}
+.hdrArchiveButton {
+    cursor: pointer;
+}
+.hdrJunkButton {
+    cursor: pointer;
+}
+.hdrTrashButton {
+    cursor: pointer;
+}
+.hdrTagButton {
+    cursor: pointer;
+}
+#button-getmsg {
+    cursor: pointer;
+}
+#button-newmsg {
+    cursor: pointer;
+}
+#button-address {
+    cursor: pointer;
+}
+#button-reply {
+    cursor: pointer;
+}
+#button-replyall {
+    cursor: pointer;
+}
+#button-replylist {
+    cursor: pointer;
+}
+#button-forward {
+    cursor: pointer;
+}
+.delete-button {
+    cursor: pointer;
+}
+.junk-button {
+    cursor: pointer;
+}
+#button-stop {
+    cursor: pointer;
+}
+#button-file {
+    cursor: pointer;
+}
+#button-nextUnread {
+    cursor: pointer;
+}
+#button-previousUnread {
+    cursor: pointer;
+}
+#button-mark {
+    cursor: pointer;
+}
+#button-tag {
+    cursor: pointer;
+}
+#button-goback {
+    cursor: pointer;
+}
+#button-goforward {
+    cursor: pointer;
+}
+#button-compact {
+    cursor: pointer;
+}
+#button-archive {
+    cursor: pointer;
+}
+#button-chat {
+    cursor: pointer;
+}
+#button-nextMsg {
+    cursor: pointer;
+}
+#button-previousMsg {
+    cursor: pointer;
+}
+.button-appmenu {
+    min-width: 35px !important;
+    cursor: pointer;
+}
+#qfb-show-filter-bar,
+#palette-box #qfb-show-filter-bar {
+    cursor: pointer;
+}
+
+/* compose window */
+#button-send {
+    cursor: pointer;
+}
+#button-contacts {
+    cursor: pointer;
+}
+#spellingButton {
+    cursor: pointer;
+}
+#button-attach {
+    cursor: pointer;
+}
+#button-security {
+    cursor: pointer;
+}
+#button-save {
+    cursor: pointer;
+}
+#quoteButton {
+    cursor: pointer;
+}
+#cut-button {
+    cursor: pointer;
+}
+#copy-button {
+    cursor: pointer;
+}
+#paste-button {
+    cursor: pointer;
+}
+#button-print{
+    cursor: pointer;
+}
+
+toolbar .toolbarbutton-1 .toolbarbutton-icon{
+    height: 18px !important;
+    width: 18px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    cursor: pointer;
+}
+
+/*#attachmentNotificationBox > notification .messageImage {
+  width: 18px !important;
+  height: 18px !important;
+  background-position: -54px top !important;
+}*/
+
+/* folder icons */
+.tabmail-tab[type="folder"][SpecialFolder="Inbox"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Inbox),
+.tabmail-tab[type="folder"][SpecialFolder="Sent"] .tab-icon-image,  treechildren::-moz-tree-image(folderNameCol, specialFolder-Sent),
+.tabmail-tab[type="folder"][SpecialFolder="Outbox"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Outbox),
+.tabmail-tab[type="folder"][SpecialFolder="Drafts"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Drafts),
+.tabmail-tab[type="folder"][SpecialFolder="Templates"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Templates),
+.tabmail-tab[type="folder"][SpecialFolder="Junk"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Junk),
+.tabmail-tab[type="folder"][SpecialFolder="Trash"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Trash),
+.tabmail-tab[type="folder"][SpecialFolder="Archive"] .tab-icon-image, treechildren::-moz-tree-image(folderNameCol, specialFolder-Archive),
+treechildren::-moz-tree-image(folderNameCol, imapShared-true) {
+    cursor: pointer;
+}
