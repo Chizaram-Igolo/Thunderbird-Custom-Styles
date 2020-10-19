@@ -21,10 +21,10 @@ In Thunderbird:
 
    * { font-size: 14px !important; }
    
-and change the 14px to say 16px etc
+    and change the 14px to say 16px etc
 
 9.  Save the changes
 
 10. Start Thunderbird.
 
-See images as guide.
+    See images as guide.
