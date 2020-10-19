@@ -19,9 +19,9 @@ In Thunderbird:
 
 8.  If the fonts are still too small for you, then look for this line:
 
-   * { font-size: 14px !important; }
+      { font-size: 14px !important; }
    
-    and change the 14px to say 16px etc
+   and change the 14px to say 16px etc
 
 9.  Save the changes
 
