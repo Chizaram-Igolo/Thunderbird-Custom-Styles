@@ -13,7 +13,7 @@ In Thunderbird:
 
 5.  Create new folder and call it "chrome" note the spelling - use a lower case 'c' It should be in the same place as the 'Mail' folder.
 
-6.  Download the userChrome.css style file in this repository and copy it into that folder. 
+6.  Download the userChrome.css style file in this repository (Click on it > Click "Raw" > Ctrl/Cmd + S) and copy it into that folder. 
 
 7.  Start Thunderbird.
 
