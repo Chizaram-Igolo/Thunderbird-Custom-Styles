@@ -3,7 +3,7 @@ Thunderbird Custom Styles
 
 In Thunderbird:
 
-1.  #Menu > Help > Troubleshooting Information
+1.  **Menu > **Help > **Troubleshooting Information
 
 2.  Under the "Application Basics" section, where it says "Profile Folder", Click "Open Folder (Local Drive)"
 
